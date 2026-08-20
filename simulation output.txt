@@ -1,0 +1,31 @@
+=== Bluetooth Robot Testbench ===
+
+Bluetooth Command Received: F
+Robot Action: MOVING FORWARD
+Position: (0, 1)
+PASS: Robot moves forward
+
+Bluetooth Command Received: B
+Robot Action: MOVING BACKWARD
+Position: (0, -1)
+PASS: Robot moves backward
+
+Bluetooth Command Received: R
+Robot Action: TURNING RIGHT
+Direction: EAST
+PASS: Robot turns right
+
+Bluetooth Command Received: L
+Robot Action: TURNING LEFT
+Direction: WEST
+PASS: Robot turns left
+
+Bluetooth Command Received: S
+Robot Action: STOPPED
+PASS: Robot stops
+
+Bluetooth Command Received: X
+Invalid Bluetooth Command
+PASS: Invalid command does not move robot
+
+=== Testbench Completed ===
